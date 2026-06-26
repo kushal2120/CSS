@@ -1,0 +1,37 @@
+p {
+  font-style: italic; 
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  /* make font bold or thick */
+  font-weight: 800;
+  /* make gap between two lines  */
+  line-height: 40px;
+}
+
+/* color: we can create color in name like red blue yellow, rgb value, hexadecimal value, hsl value */
+
+/* named value */
+#first-para {
+  background-color: yellow;
+  color: brown;
+}
+
+/* rgb value */
+#second-para {
+  background-color: rgb(22, 50, 164);
+}
+
+#third-para {
+  background-color: rgba(145, 13, 13, 0.79);
+}
+
+/* hexadecimal value : first 2 value shows red, then 2 green, then 2 blue*/
+.first-class {
+  background-color: #acab23;
+}
+
+/* hsl value */
+#fourth-para {
+  background-color: hsl(141, 88%, 32%);
+}
+

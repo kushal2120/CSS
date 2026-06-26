@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* block element: div, p, h etc */
+/* width:*extreme left to extreme right 
+        *custom width, height, margin, *padding respect
+        *new line */
+div {
+  border: 1px solid red ;
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+  padding: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 100x;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/* inline element:*a, span 
+                  *same line if space available
+                  *width -> content width
+                  *no custom width, heigth
+                  *no custom margin but padding can be custom applied*/
+/* span {
+  border: 2px solid green;
+  margin: 10px;
+  padding: 15px; 
+} */
+
+/* inline block:*behaves like inline 
+               *set custom width, height after applying inline block */
+
+span {
+  border: 2px solid green;
+  width: 400px; 
+  height: 200px;
+  display: inline-block;
+}

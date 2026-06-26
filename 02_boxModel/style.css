@@ -1,0 +1,64 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: aquamarine;
+  /* border-style: dotted;
+  border-width: 2px;
+  border-color: brown; */
+
+  /* short hand propert of above code */
+  /* border: solid brown 4px; */
+  border-right: solid brown 4px;
+
+  /* make border rounded */
+  border-radius: 10px;
+  border-top-left-radius: 5px;
+
+  width: 400px;
+  /* height: 100px; */
+}
+
+/* span {
+  background-color: aquamarine;
+  border: solid black 4px;
+  border-radius: 4px;
+
+} */
+
+#first-para {
+  background-color: blanchedalmond;
+  width: 400px;
+  border: solid black 4px;
+
+  /* content aur border ke beech ka distance(inside)=> padding */
+  /* padding: 20px; */
+  padding-left: 45px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+  padding-top: 15px;
+  /* short hand */
+  padding: 15px 25px 35px 45px;
+
+  /* gap between two boxes(outside)=> margin */
+  /* margin: 40px; */
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#second-para {
+  background-color: beige;
+  width: 400px;
+}
+
+#third-para {
+  background-color: yellowgreen;
+  width: 400px;
+}
+
+/* box model
+content -> padding -> border -> margin */
+
