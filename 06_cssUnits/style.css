@@ -1,0 +1,57 @@
+/* units: px, %, vr, vw, rem, em */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .box {
+  border: 2px solid red;
+  width: 50%;
+} */
+
+/* .parent {
+  border: 1px solid black;
+  background-color: beige;
+  width: 50%;
+} */
+
+/* .child {
+  border: 1px solid green;
+  background-color: aquamarine; */
+
+  /* 20% of parent width */
+    /* width: 20%; 
+} */
+
+/* .container {
+  background-color: beige;
+  border: 2px dotted green;
+
+  /* viewport height */
+  /* height: 100vh; */
+
+  /* viewport width */
+  /* width: 50vw;
+}  */
+
+
+/* px */
+/* .box1 {
+  border: 2px solid black;
+  font-size: 100px;
+} */
+
+/* 1em => 16px*/
+/* .container {
+  font-size: 10px;
+}
+
+.box {
+  10*10 (parent * child)
+  font-size: 10em;
+} */
+
+.first-para {
+  border: 1px solid black;
+  /* 16*5 */
+  font-size: 5rem;
+}

@@ -1,0 +1,53 @@
+/* position property: static, relative, absolute, ficed. sticky */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 10px;
+}
+
+div{
+  border: 2px solid black;
+}
+
+/* relative positioning:*current window
+ *top, left, right, bottom => spacing using these property on that particular container or div
+*gap maintained after applying */
+
+/* absolute positioning: *overlape
+*relative to its closest position anchestor
+*no gap maintained after applying absolute */
+
+.img2 {
+  /* position: relative;
+  top: 100px;
+  left: 100px; */
+
+  /* position: absolute;
+  top: 100px;*/
+} 
+
+.container {
+  position: relative;
+  height: 8000px;
+  background-color: beige;
+}
+
+/* fixed: entire page fixed */
+.img4 {
+  position: fixed;
+}
+
+/* sticky: fixed parent container only */
+.img3 {
+  position: sticky;
+  top: 100px;
+}
+
+.box {
+  background-color: aquamarine;
+  height: 5000px;
+}
