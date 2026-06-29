@@ -1,0 +1,20 @@
+.box {
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  border: 3px solid black;
+}
+
+/* 500px ke baad green me ho jayega */
+/* @media (min-width: 500px){
+  .box {
+     background-color: green;
+  }
+} */
+
+/* 300px se 500px ke ate hi green change
+@media (min-width: 300px)(max-width: 500px){
+  .box {
+     background-color: green;
+  }
+} */
